@@ -1,0 +1,16 @@
+// Basic Elements
+
+body {
+  background: $white;
+  @include radial-gradient($white, darken($white, 1.25%));
+  color: $black;
+  font-family: $typeface-serif;
+  text-shadow: 1px 1px 1px transparent;
+}
+
+a {
+  color: $grey;
+  &:visited { color: $grey; }
+  &:hover { color: $pink; }
+  &:active { color: darken($pink, 15%); }
+}

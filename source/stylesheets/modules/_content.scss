@@ -1,0 +1,40 @@
+.m-content {
+  border-top: 1px solid $grey;
+  padding: 1em 0;
+
+  h4 {
+    font-style: italic;
+  }
+
+  @include media-ie($breakpoint-desktop) {
+
+    p { font-size: 1.125em; }
+
+    h4 {
+      margin-top: 1em;
+      text-align: right;
+    }
+
+    .content-profile {
+      margin-top: 0.3125em;
+    }
+
+  } // @include media-ie($breakpoint-desktop)
+
+} // .m-content
+
+.m-titling {
+  padding-top: 0.8125em;
+  border-top: 3px solid $black;
+} // .m-titling
+
+ul.m-leadership {
+  margin: 0;
+  list-style: none;
+
+  h4 {
+    margin: 0;
+    text-align: left;
+  }
+
+} // ul.m-leadership
